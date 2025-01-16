@@ -8,9 +8,9 @@ app.use(bodyParser.json());
 // Database connection setup
 const connection = mysql.createConnection({
     host: 'localhost',
-    user: 'root', // replace with your MySQL username
-    password: 'dani0919', // replace with your MySQL password
-    database: 'TableCreateDb'
+    user: 'root', 
+    password: 'dani0919', 
+    database: 'TableUpdateDb'
 });
 
 connection.connect((err) => {
